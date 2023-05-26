@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+
+.line-nav{
+    width: 100%;
+    height: 39px;
+    background-color: black;
+
+}
+.main-nav{
+    width: 716px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 2;
+    background-color: rgb(15, 15, 15);
+    margin-left: 300px;
+border-radius: 10px;
+justify-content: space-around;
+}
+
+.user{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+
+.rest h5{
+    padding-top: 15px;
+}
+.rest h6{
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+.rest button{
+    padding-right: 10px;
+}
+.head img{
+    width: 96px;
+    height: 18px;
+    margin-left: 400px;
+}
+
+.main-nav ul{
+    align-items: center;
+    color: rgb(103, 104, 104);
+    list-style: none;
+ display: flex;
+ margin-top: 10px;
+}
+
+.rest{
+    display: flex;
+}
+
+.rest button{
+    border: none;
+    background: transparent;
+}
+.main-nav img{
+    width: 96px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.front-page{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    background-image: url(./images/MLP\ -\ Copy\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.front-text{
+    color: white;
+    /* margin-top: 100px; */
+    padding-left: 50px;
+
+}
+.front-text button{
+    width: 280px;
+    height: 48px;
+    background-color: rgb(0,160,214);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.front-text h1{
+    padding-top: 100px;
+}
+
+.second-page{
+    width: 100%;
+    height: 500px;
+background-image: url(./images/TVOD_MLP_Left.jpg);
+background-position: center;
+background-size: cover;
+padding-left: 750px;
+padding-top: 150px;
+
+}
+
+.second-text button{
+    width: 280px;
+    height: 54px;
+    color: white;
+    background-color: rgb(0,160,214);
+
+    /* padding-top: 20px; */
+
+    border: none;
+    border-radius: 5px;
+     
+}
+.second-text{
+    color: white;
+    
+}
+
+.second-text h1{
+    padding-bottom: 20px;
+}
+
+.grid-section{
+    width: 100%;
+    height: 586px;
+    /* background-color: aqua; */
+display: flex;
+}
+
+.channels{
+    width: 1214px;
+    height: 566px;
+    display: flex;
+}
+
+.text-section{
+    width: 607px;
+    height: 238px;
+}
+
+
+.grid-box{
+    width: 607px;
+    height: 566px;
+    /* display: flex; */
+    /* background-color: beige;/ */
+}
+.row{
+    width: 100%;
+    margin-top: 10px;
+}
+.col img{
+    display: flex;
+    width: 170px;
+    /* height: 135px; */
+margin-top: 10px;
+}
+
+.fire-stick{
+    width: 100%;
+    height: 480px;
+    background-image: url(./images/MLP_Template_Image_Left.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+   /* margin-left: 50px; */
+    
+}
+.fire-stick button{
+    width: 280px;
+    height: 54px;
+    color: white;
+    background-color: rgb(0,160,214);
+
+    border: none;
+    border-radius: 5px;
+}
+
+.fire-text{
+    padding-left: 700px;
+    padding-top: 100px;
+
+}
+
+
+.fire-text h5{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.family{
+    width: 100%;
+    height: 431px;
+    background-image: url(./images/IN-kids-30Jan._CB1517304519_\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.family-text button{
+    width: 280px;
+    height: 54px;
+    color: white;
+    background-color: rgb(0,160,214);
+    border: none;
+    border-radius: 5px;
+}
+.family-text h5{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 119px;
+    background-color: #222222;
+}
+
+.footer img{
+    width: 109px;
+    height: 32px; 
+    /* display: flex; */
+/* align-items: center; */
+/* padding-left: 200px; */
+margin-left: 600px;
+margin-top: 20px;
+}
+
+.footer ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    margin-left: 450px;
+}
+.footer a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer p{
+    color: #949494;
+    margin-left: 500px;
+}
